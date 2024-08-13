@@ -1,12 +1,13 @@
 import Segunda_imagem from '/imagem2-funcionamento.svg'
 import Primeira_imagem from '/imagem1-funcionamento.svg'
 import Nav from '../components/Nav'
+import Footer from '../components/Footer'
 
 export default function Funcionamento() {
   return (
       <body>
         <Nav/>
-        <main className='bg-bege text-text-preto px-8 '>
+        <main className='bg-bege text-text-preto px-8 min-h-screen'>
   
           <section > 
               <h1 className='font-patua-one text-4xl mb-8 pt-16'>Horto tech</h1>
@@ -21,6 +22,9 @@ export default function Funcionamento() {
               <p className='mt-5 text-xs text-justify font-aleo font-light'>O sistema é composto por sensores integrados ao Arduino que coletam dados em tempo real sobre as condições ambientais da horta.  Além disso, o sistema pode ser programado para acionar automaticamente a irrigação quando os níveis de umidade do solo estiverem abaixo do ideal.</p>
           </section>
         </main>
+        
+        <Footer></Footer>
+
       </body>
     
   )

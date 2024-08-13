@@ -1,14 +1,15 @@
 import Primeira_imagem from '/imagem1-home.svg'
 import Segunda_imagem from '/imagem2-home.svg'
 import Fake_imagem from '/imagem do projeto fake.svg'
-import Quadro from '/quadro-quadrados.svg'
+import Quadro from '/quadro.svg'
 import Nav from '../components/Nav'
+import Footer from '../components/Footer'
 
 export default function Inicio() {
   return (
     <body>
         <Nav />
-        <main className='bg-bege text-text-preto ' >
+        <main className='bg-bege text-text-preto min-h-screen ' >
             
             <section className=' '>
                 <h1 className='font-patua-one text-4xl mb-8 pt-16 px-8'>Horta tech</h1>
@@ -39,11 +40,7 @@ export default function Inicio() {
             
         </main>
 
-        <footer className='bg-verde-header flex items-center '>
-            <p className='text-text-branco text-tr mx-6 my-2.5 font-rem '>horta_tech@gmail.com</p>
-            <p className='text-text-branco text-tr text-end mx-6 my-2.5 font-rem '>UNASP SP - Estr. de Itapecerica, 5859
-            Capão Redondo, São Paulo - SP, 05890-020</p>
-        </footer>
+        <Footer></Footer>
     </body>
     
 )
