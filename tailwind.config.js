@@ -21,7 +21,8 @@ export default {
       '3xl': '1.953rem',
       '4xl': '2.441rem',
       '5xl': '3.052rem',
-      tr: '.625rem'
+      tr: '.625rem',
+      'text-card': '15px'
     },
 
     fontFamily: {
@@ -29,12 +30,21 @@ export default {
       'aleo': '"Aleo"',
       'patua-one': '"Patua One"',
     },
+    borderRadius:{
+        'borda-card': '10px',
+    },
 
     extend: {
       inset: {
         '20p': '5%',
         '40p': '27.5%',
         
+      },
+      spacing: {
+        'Card-w': '277px',
+        'Card-h': '526px',
+        'padding-card': '54px',
+        'padding-text-card': '30px',
       }
     }
   },
@@ -42,4 +52,5 @@ export default {
 
   plugins: [],
 }
+
 
