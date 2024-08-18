@@ -29,6 +29,7 @@ export default function Header() {
               <a href="/sobrenos" className="hover:bg-">Sobre Nós</a>
               <a href="/referencias" className="">Referências</a>
               <a href="/funcionamento" className="">Funcionamento</a>
+              
             </div>
           </div>
         </div>

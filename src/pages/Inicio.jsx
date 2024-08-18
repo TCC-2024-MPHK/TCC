@@ -18,28 +18,35 @@ export default function Inicio() {
 
                
 
-                <div className='bg-verde-claro mt-16 pb-9 px-8 lg:flex lg:flex-col-reverse md:px-20 lg:pt-10'>
-                    <p className='pt-9 mb-8 font-aleo text-justify text-xs italic font-semibold'>
+                <div className='bg-verde-claro mt-16 pb-9 px-8 lg:flex lg:flex-col-reverse md:px-20 lg:pt-10 lg:items-center'>
+                    <p className='pt-9 mb-8 font-aleo text-justify text-xs italic font-semibold lg:pb-10 lg:text-center'>
                     O cultivo de vegetais proporciona uma série de vantagens para a saúde, tais como, redução do estresse, o consumo regular desses alimentos pode ajudar na prevenção de doenças como câncer, diabetes e obesidade.
                     </p>
-                    <img className='mb-6 md:w-full' src={Fake_imagem} alt="" />
+                    <img className='mb-6 md:w-full lg:w-80 lg:h-15 lg:mb-0' src={Fake_imagem} alt="" />
                 </div>
 
 
 
-                <div className='flex items-center '  >
-                        <img className=' rounded-md absolute left-20p' src={Quadro} alt="" />   
-                        <img className=' rounded-md absolute left-40p md:left-teste' src={Quadro} alt="" />
-                        <img className=' rounded-md absolute right-40p md:right-teste' src={Quadro} alt="" />
-                        <img className=' rounded-md absolute right-20p' src={Quadro} alt="" />
+                <div className='flex items-center mb-32 '  >
+                        <img className=' rounded-md absolute left-20p lg:w-13 lg:h-170px' src={Quadro} alt="" />   
+                        <img className=' rounded-md absolute left-40p md:left-teste lg:w-13 lg:h-170px' src={Quadro} alt="" />
+                        <img className=' rounded-md absolute right-40p md:right-teste lg:w-13 lg:h-170px' src={Quadro} alt="" />
+                        <img className=' rounded-md absolute right-20p lg:w-13 lg:h-170px' src={Quadro} alt="" />
                          
                 </div>  
-                    
-                <div className='pb-16 px-8'>
-                    <h2 className='font-patua-one text-xl mb-8  mt-16 '>Mas por que hortaliças?</h2>
-                    <img src={Segunda_imagem} alt="" className=' rounded-lg md:w-full '/>
-                    <p className='mt-5 mb-10 text-xs text-justify font-aleo font-light text-xs'>Com base em <strong className='text-verde-claro font-patua-one '>estudos</strong> , o cultivo de hortaliças traz diversos benéficos para a saúde: combate o estresse, estimula á criatividade e melhora o bem-estar, além de tornar o ambiente mais sociável. O consumo delas previne o câncer, diabetes e obesidade. Por fim saborear alimentos com temperos caseiros é muito mais prazeroso!</p>
+
+                <h2 className='font-patua-one text-xl pb-8 lg:-mb-16 lg:text-end md:px-20'>Mas por que hortaliças? </h2>        
+                <section className='md:px-20 pb-16 px-8 flex flex-col md:flex-row md:items-start'>
+                    <div className='md:w-1/2 md:pr-8'>
+                    <img src={Segunda_imagem} alt="" className='rounded-lg w-full' />
+                    </div>
+
+                    <div className='md:w-1/2 flex flex-col justify-end'>
+                    <p className='text-xs text-justify font-aleo font-light md:-mt-8 lg:pt-20'> Com base em <strong className='text-verde-claro font-patua-one'>estudos</strong>, o cultivo de hortaliças traz diversos benéficos para a saúde: combate o estresse, estimula a criatividade e melhora o bem-estar, além de tornar o ambiente mais sociável. O consumo delas previne o câncer, diabetes e obesidade. Por fim, saborear alimentos com temperos caseiros é muito mais prazeroso!</p>
                 </div>
+                </section>
+
+                
                 
             </section>
             

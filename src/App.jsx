@@ -29,6 +29,7 @@ const router = createBrowserRouter([
   path: "/sobrenos",
   element: <SobreNos/>
 },
+
 ])
 
 export default function App() {

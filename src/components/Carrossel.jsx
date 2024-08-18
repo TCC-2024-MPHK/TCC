@@ -1,8 +1,7 @@
-
-          import { Swiper,SwiperSlide } from 'swiper/react'
-          import { useState } from 'react'
-          import Segunda_imagem from '/imagem2-funcionamento.svg'
-          import Quarta_imagem from '/imagem4-funcionamento.svg'
+import { Swiper,SwiperSlide } from 'swiper/react'
+import { useState } from 'react'
+import Segunda_imagem from '/imagem2-funcionamento.svg'
+import Quarta_imagem from '/imagem4-funcionamento.svg'
           
 
           
@@ -18,24 +17,22 @@
             return (
               
               <div>
-                <Swiper
-                slidesPerView={1}
-                pagination ={{clickable:true}}
-          
-                
-                >
-                  {data.map( (item) => (
-                    <SwiperSlide key={item.id}>
-                     
-                    <img src={item.a} alt="" className=' rounded-lg  '/>
-                    <h2 className='font-patua-one text-xl my-5'>{item.b}</h2>
-                    <p className=' pb-5 mb-7 text-xs text-justify font-aleo font-light'>{item.c} <strong className='text-verde-claro font-patua-one  '> {item.d} </strong> {item.e} </p>  
-                    
+    <Swiper
+        slidesPerView={1}
+        pagination={{ clickable: true }}
+    >
+        {data.map((item) => (
+            <SwiperSlide key={item.id}>
+                <img src={item.a} alt="" className='rounded-lg mx-auto lg:w-4/5 px-5 pb-5' />
+                <h2 className='font-patua-one text-xl my-5 lg:px-36'>{item.b}</h2>
+                <p className='pb-5 mb-7 text-xs text-justify font-aleo font-light lg:px-36'>
+                    {item.c} <strong className='text-verde-claro font-patua-one'>{item.d}</strong> {item.e}
+                </p>
+            </SwiperSlide>
+        ))}
+    </Swiper>
+</div>
 
-                    </SwiperSlide>
-                  ))}
-                </Swiper>
-              </div>
             )
           }
           

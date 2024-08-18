@@ -48,6 +48,7 @@ export default {
         'padding-text-card': '30px',
         '300px': '300px',
         '180px': '180px',
+        '170px': '170px',
       }
     }
   },
