@@ -38,6 +38,7 @@ export default {
       inset: {
         '20p': '5%',
         '40p': '27.5%',
+        'teste': '30%',
         
       },
       spacing: {

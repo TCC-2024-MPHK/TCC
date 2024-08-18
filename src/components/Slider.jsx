@@ -19,12 +19,14 @@ export default function Slider() {
   useEffect(() =>{
 
     function handleResize(){
-      if(window.innerWidth < 1024){
-        setSlidePerView(1)
-      }else{
-        setSlidePerView(3)
+      if(window.innerWidth < 768){
+          setSlidePerView(1);
+      } else if(window.innerWidth >= 768 && window.innerWidth < 1024){
+          setSlidePerView(2);
+      } else {
+          setSlidePerView(3);
       }
-    }
+  }
 
     handleResize();
 

@@ -29,8 +29,8 @@
                      
                     <img src={item.a} alt="" className=' rounded-lg  '/>
                     <h2 className='font-patua-one text-xl my-5'>{item.b}</h2>
-                    <p className='mb-5 text-xs	text-justify font-aleo font-light'>{item.c} <strong className='text-verde-claro font-patua-one '> {item.d} </strong> {item.e} </p>  
-                    <img src={item.f} alt="" className=' rounded-lg mb-5 pb-5  '/>
+                    <p className=' pb-5 mb-7 text-xs text-justify font-aleo font-light'>{item.c} <strong className='text-verde-claro font-patua-one  '> {item.d} </strong> {item.e} </p>  
+                    
 
                     </SwiperSlide>
                   ))}

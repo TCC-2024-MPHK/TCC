@@ -1,10 +1,10 @@
-import Nav from '../components/Nav'
+import Header from '../components/Header'
 import Footer from '../components/Footer'
 
 export default function Referencias() {
   return (
     <body >
-        <Nav/>
+        <Header/>
         
         <main className='bg-bege text-text-preto min-h-screen '>
             <section>
