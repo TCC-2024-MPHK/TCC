@@ -8,6 +8,6 @@ import SobreNos from './pages/SobreNos.jsx'
 export default function App() {
   return (
     
-    <SobreNos/>
+    <Funcionamento/>
 )
 }

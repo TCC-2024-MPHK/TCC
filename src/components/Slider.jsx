@@ -1,15 +1,14 @@
 import { Swiper,SwiperSlide } from 'swiper/react'
-
-
+import { useState, useEffect } from 'react'
 
 import C from './Card'
 import P from './CardPedro'
 import K from './CardKaike'
 import H from './CardHenrique'
 
-const data = []
-export default function Slider() {
 
+export default function Slider() {
+  const [slidesPerView, setSlidePerView] = useState(2)
   const data = [
     {id:1,card:<C/>},
     {id:2,card:<P/>},
@@ -17,11 +16,30 @@ export default function Slider() {
     {id:4,card:<H/>},
   ]
 
+  useEffect(() =>{
+
+    function handleResize(){
+      if(window.innerWidth < 1024){
+        setSlidePerView(1)
+      }else{
+        setSlidePerView(3)
+      }
+    }
+
+    handleResize();
+
+    window.addEventListener("resize",handleResize)
+
+    return () =>{
+      window.removeEventListener("resize",handleResize)
+    }
+  }, [])
+
   return (
     
     <div>
       <Swiper
-      slidesPerView={1}
+      slidesPerView={slidesPerView}
       pagination ={{clickable:true}}
 
       

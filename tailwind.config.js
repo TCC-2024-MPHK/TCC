@@ -45,6 +45,8 @@ export default {
         'Card-h': '526px',
         'padding-card': '54px',
         'padding-text-card': '30px',
+        '300px': '300px',
+        '180px': '180px',
       }
     }
   },
