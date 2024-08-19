@@ -12,7 +12,7 @@ export default function Inicio() {
         <main className='bg-bege text-text-preto min-h-screen ' >
             
             <section className=' '>
-                <h1 className='font-patua-one text-4xl mb-8 pt-16 px-8 md:px-20'>Horta tech</h1>
+                <h1 className='font-patua-one text-4xl mb-8 pt-16 px-8 md:px-20 lg:text-4xl'>Horta tech</h1>
                 <img src={Primeira_imagem} alt="" className='px-8 md:w-full md:px-20' />
                 <p className='mt-5 text-xs	text-justify font-aleo font-light px-8 md:px-20'>O <strong className='text-verde-claro font-patua-one '>Horta tech</strong> tem como objetivo o cultivo de hortaliças em ambientes domésticos, mas vai além disso, Ele auxilia indivíduos que não dispõem de tempo para o cuidado de suas plantas, fornecendo alertas quando suas hortaliças necessitam de atenção e despeja quantidade de água necessária para cada hortaliça.</p>
 

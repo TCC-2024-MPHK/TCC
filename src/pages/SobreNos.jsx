@@ -11,7 +11,7 @@ export default function SobreNos() {
   <body>
     <Header/>
     <main className='bg-bege text-text-preto  items-center  justify-center min-h-screen  '>
-    <h1 className='font-patua-one text-xl px-8 text-center pt-12 mb-5'>Sobre Nós</h1>
+    <h1 className='font-patua-one text-xl px-8 text-center pt-12 mb-5 lg:text-4xl'>Sobre Nós</h1>
 
     <Slider></Slider>
       

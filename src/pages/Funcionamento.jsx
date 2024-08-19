@@ -11,7 +11,7 @@ export default function Funcionamento() {
         <main className='bg-bege text-text-preto px-8 min-h-screen'>
   
           <section > 
-              <h1 className='font-patua-one text-4xl mb-8 pt-16'>Funcionamento</h1>
+              <h1 className='font-patua-one text-4xl mb-8 pt-16 lg:text-4xl'>Funcionamento</h1>
               <img src={Primeira_imagem} alt="" className=' rounded-lg md:w-full ' />
               <p className='mt-5 text-xs	text-justify font-aleo font-light lg:pb-28 py-10'>O <strong className='text-verde-claro font-patua-one '>Horta tech</strong> funciona na área de Robótica, propõe o desenvolvimento de um sistema automatizado de monitoramento para cultivo de hortaliças, empregando a plataforma Arduino como base. O objetivo principal é conceber uma solução que viabilize o controle eficaz de variáveis fundamentais para o desenvolvimento vigoroso das plantas, incluindo a umidade do solo, a temperatura ambiente e a luminosidade.</p>  
           </section>
