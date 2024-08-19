@@ -32,8 +32,8 @@ import Umidade from '/umidade.png'
     >
         {data.map((item) => (
             <SwiperSlide key={item.id}>
-                <img src={item.a} alt="" className='rounded-lg mx-auto lg:w-4/5 px-5 pb-5' />
-                <h2 className='font-patua-one text-xl my-5 lg:px-36'>{item.b}</h2>
+                <img src={item.a} alt="" className='rounded-lg mx-auto lg:w-7/12 lg:h-96 px-5 ' />
+                <h2 className='font-patua-one text-xl mb-5 lg:px-36'>{item.b}</h2>
                 <p className='pb-5 mb-7 text-xs text-justify font-aleo font-light lg:px-36'>
                     {item.c} <strong className='text-verde-claro font-patua-one'>{item.d}</strong> {item.e}
                 </p>

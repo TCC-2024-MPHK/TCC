@@ -1,12 +1,12 @@
 import {InstagramLogo, GithubLogo, LinkedinLogo}  from "@phosphor-icons/react";
-import icon_matheus from "/matheus.svg";
+import kaike from "/kaike.svg";
 
 
 export default function Card() {
   return (
     <section className=' mx-auto w-Card-w  h-Card-h bg-verde-claro mb-10 rounded-borda-card  items-center justify-center'>
         <div className='flex items-center justify-center'>
-        <img className ='pt-5'src={icon_matheus} alt="" />
+        <img className ='pt-5'src={kaike} alt="" />
         </div>
         <p className='font-patua-one text-xl px-8 text-center pt-5 mb-5'>Kaike Machado</p>
         <p className=' px-5 text-justify font-aleo font-light text-text-card  '>
