@@ -1,10 +1,10 @@
 import { Swiper,SwiperSlide } from 'swiper/react'
 import { useState } from 'react'
-import Segunda_imagem from '/imagem2-funcionamento.svg'
-import Rale from '/rale.svg'
-import Uv from '/sensor_UV.svg'
-import Bluetooh from '/bluetooh.svg'
-import Umidade from '/umidade.svg'
+import Segunda_imagem from '/imagem2-funcionamento.png'
+import Rale from '/rale.png'
+import Uv from '/sensor_UV.png'
+import Bluetooh from '/bluetooh.png'
+import Umidade from '/umidade.png'
           
   
           
