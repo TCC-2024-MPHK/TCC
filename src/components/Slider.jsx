@@ -39,7 +39,7 @@ export default function Slider() {
 
   return (
     
-    <div>
+    <div className=' pt-12'>
       <Swiper
       slidesPerView={slidesPerView}
       pagination ={{clickable:true}}
