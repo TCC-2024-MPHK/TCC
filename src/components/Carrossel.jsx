@@ -1,17 +1,26 @@
 import { Swiper,SwiperSlide } from 'swiper/react'
 import { useState } from 'react'
 import Segunda_imagem from '/imagem2-funcionamento.svg'
-import Quarta_imagem from '/imagem4-funcionamento.svg'
+import Rale from '/rale.svg'
+import Uv from '/sensor_UV.svg'
+import Bluetooh from '/bluetooh.svg'
+import Umidade from '/umidade.svg'
           
-
+  
           
 
           export default function Slider() {
             const [slidesPerView, setSlidePerView] = useState(2)
             const data = [
-                {id:1,a:Segunda_imagem,b:"Arduino-UNO" ,c:"É a placa que integra todos os sensores do projeto e interpreta o código, transformando a horta em um sistema inteligente. Ele atua como o",d:"cérebro",e:"do projeto, tomando decisões com base nas informações recebidas e acionando os atuadores para otimizar o funcionamento da horta.",f:Quarta_imagem},
+                {id:1,a:Segunda_imagem,b:"Arduino-UNO" ,c:"É a placa que integra todos os sensores do projeto e interpreta o código, transformando a horta em um sistema inteligente. Ele atua como o",d:"cérebro",e:"do projeto, tomando decisões com base nas informações recebidas e acionando os atuadores para otimizar o funcionamento da horta."},
 
-                {id:2,a:Segunda_imagem,b:"Arduino-UNO" ,c:"É a placa que integra todos os sensores do projeto e interpreta o código, transformando a horta em um sistema inteligente. Ele atua como o",d:"cérebro",e:"do projeto, tomando decisões com base nas informações recebidas e acionando os atuadores para otimizar o funcionamento da horta.",f:Quarta_imagem},
+                {id:2,a:Rale,b:"Módulo Relé" ,c:"serve como",d:"ponte",e:"do nosso projeto, adaptando a voltagem para que possamos usar bombas d'água ou abrir o teto com um servo motor."},
+
+                {id:3,a:Uv,b:"Sensor Uv",c:"esse sensor e capaz de",d:"identificar a intensidade dos raios solares",e:"por meio de radiação ultra violeta, graças a ele o projeto pode se adequar a qualquer planta independente se ela precisa de muita ou pouca luz solar."},
+                
+                {id:4,a:Bluetooh,b:"Módulo Bluetooh" ,c:"este módulo faz a conecção com o ",d:"aplicativo",e:"permitindo que o usuário configure cada hortaliça separadamente por meio do seu smarthphone."},
+
+                {id:5,a:Umidade,b:"Sensor de umidade do solo" ,c:"este sensor mede a umidade do solo, permitindo que a ",d:"irrigaçao da terra seja feita automaticamente",e:" conforme a terra vai ficando mais seca."},
             ]
 
             return (
