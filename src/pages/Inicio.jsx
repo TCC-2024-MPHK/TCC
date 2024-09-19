@@ -38,7 +38,7 @@ export default function Inicio() {
                 <h2 className='font-patua-one text-xl px-8 pb-8 lg:-mb-16 lg:text-end md:px-20 lg:text-4xl '>Mas por que hortaliças? </h2>        
                 <section className='md:px-20 pb-16 px-8 flex flex-col md:flex-row md:items-start'>
                     <div className='md:w-1/2 md:pr-8'>
-                    <img src={Segunda_imagem} alt="" className='rounded-lg w-full' />
+                    <img src={Segunda_imagem} alt="" className='rounded-lg w-full mb-6' />
                     </div>
 
                     <div className='md:w-1/2 flex flex-col justify-end'>
