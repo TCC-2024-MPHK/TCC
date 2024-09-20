@@ -31,10 +31,11 @@ export default function Header() {
           </button>
         </div>
         
-        <nav className={` color-text-preto cursor-pointer pt-10 bg-verde-claro flex flex-col w-40 h-screen text-left gap-5 fixed p-4 right-[${abrirMenu === true ? "0" : "-10rem"}]  transition-all delay-150 rounded-md md:hidden font-rem font-light`}>
-          <a href="/sobrenos" >Sobre Nós</a>
-          <a href="/referencias" >Referências</a>
-          <a href="/funcionamento" >Funcionamento</a>
+        <nav className={`color-text-preto cursor-pointer  bg-verde-claro flex flex-col w-40 h-max text-center gap-4 fixed p-4 
+            transition-all delay-150 rounded-md md:hidden ${abrirMenu ? "right-0" : "-right-40"}`}>
+          <a href="/sobrenos">Sobre Nós</a>
+          <a href="/referencias">Referências</a>
+          <a href="/funcionamento">Funcionamento</a>
         </nav>
 
       </div>

@@ -18,7 +18,7 @@ export default function Funcionamento() {
 
           <h2 className='font-patua-one text-xl pb-8 md:px-24 md:text-3xl'>Veja o vídeo a seguir</h2>
           <section className='mb-8 md:px-24 md:flex items-center md:text-xl md:pb-10 '>
-            <img src={Terceira_imagem} alt="" className='mb-8 md:w-1/2 md:pr-8  '/>
+            <img src={Terceira_imagem} alt="" className='mb-8 md:w-[600px] md:pr-8  '/>
             <p className='text-xs text-justify font-aleo font-light'>O sistema é composto por sensores integrados ao <strong className='text-verde-claro font-patua-one'>Arduino</strong> que coletam dados em tempo real sobre as condições ambientais da horta. Descubra o que cada um faz abaixo , arraste para o lado para ver cada componente da sua horta automática. </p>
           </section>
 
