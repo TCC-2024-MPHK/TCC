@@ -1,5 +1,4 @@
 import React, {useState} from "react";
-import { Link } from "react-router-dom";
 import { List, X } from "@phosphor-icons/react";
 import logo from '/logo.svg'
 
@@ -19,13 +18,20 @@ export default function Header() {
     <header>
       <div className="">
         <div className="flex justify-between px-6 py-2 bg-verde-header">
-          <a className=''href="/"><img  src={logo} alt="logo" /> </a>
-          <button onClick={handleAbrirFecharMenu}>
+          <a  className='	'href="/"><img  src={logo} alt="logo" /> </a>
+
+          <div className=" max-md:hidden text-text-branco font-rem font-light space-x-8">
+            <a href="/sobrenos" >Sobre Nós</a>
+            <a href="/referencias" >Referências</a>
+            <a href="/funcionamento" >Funcionamento</a>
+          </div>
+
+          <button onClick={handleAbrirFecharMenu} className=" cursor-pointer md:hidden">
             {abrirMenu === true ? <X size={32} weight="bold" color="#ffff"/> : <List size={32} weight="bold" color="#ffff"/>}
           </button>
         </div>
         
-        <nav className={`  bg-verde-header flex flex-col w-60 h-max text-center gap-5 fixed p-4 right-[${abrirMenu === true ? "0" : "-15rem"}] `}>
+        <nav className={` color-text-preto cursor-pointer bg-verde-claro flex flex-col w-40 h-max text-right gap-5 fixed p-4 right-[${abrirMenu === true ? "0" : "-15rem"}] transition-all delay-150 rounded-md md:hidden font-rem font-light`}>
           <a href="/sobrenos" >Sobre Nós</a>
           <a href="/referencias" >Referências</a>
           <a href="/funcionamento" >Funcionamento</a>
