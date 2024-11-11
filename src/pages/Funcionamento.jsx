@@ -18,7 +18,7 @@ export default function Funcionamento() {
 
           <h2 className='font-patua-one text-xl pb-8 md:px-24 md:text-3xl'>Veja o vídeo a seguir</h2>
           <section className='mb-8 md:px-24 md:flex items-center md:text-xl md:pb-10 '>
-          <iframe className='mb-8 md:w-[1000px] md:pr-8  ' width="00" height="400" src="https://www.youtube.com/embed/Csm0JqUrKuQ?si=bWhhL3_u40Yab7sv" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+          <iframe className='mb-8 md:w-[2000px] md:pr-8  ' width="00" height="400" src="https://www.youtube.com/embed/Csm0JqUrKuQ?si=bWhhL3_u40Yab7sv" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
           
 
