@@ -46,6 +46,16 @@ export default function Inicio() {
                         <img src={Horta} alt="" className='mb-8 md:w-1/2 md:pr-8 '/>
                         <p className='font-aleo text-justify '>Com base em <strong className='text-verde-claro font-patua-one'>estudos</strong>, o cultivo de hortaliças traz diversos benéficos para a saúde: combate o estresse, estimula a criatividade e melhora o bem-estar, além de tornar o ambiente mais sociável. O consumo delas previne o câncer, diabetes e obesidade. Por fim, saborear alimentos com temperos caseiros é muito mais prazeroso!</p>
                     </div>
+
+                    
+                    <div >
+                    <h2 className='font-patua-one text-xl pt-4 px-8 text-center lg:text-4xl '>Jogo</h2>
+                        <div className='flex justify-center'>
+                            <iframe className='mt-8 mb-8 md:w-1/2 md:pr-8 ' width="600" height="450" src="https://www.youtube.com/embed/5rGeWRMtbfo?si=99ZnIPq_actYGxMD" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
+                        </div>
+                      
+                    </div>
                 </section>
                 
                 

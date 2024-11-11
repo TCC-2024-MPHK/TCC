@@ -18,7 +18,10 @@ export default function Funcionamento() {
 
           <h2 className='font-patua-one text-xl pb-8 md:px-24 md:text-3xl'>Veja o vídeo a seguir</h2>
           <section className='mb-8 md:px-24 md:flex items-center md:text-xl md:pb-10 '>
-            <img src={Terceira_imagem} alt="" className='mb-8 md:w-[600px] md:pr-8  '/>
+          <iframe className='mb-8 md:w-[1000px] md:pr-8  ' width="00" height="400" src="https://www.youtube.com/embed/Csm0JqUrKuQ?si=bWhhL3_u40Yab7sv" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
+          
+
             <p className='text-xs text-justify font-aleo font-light'>O sistema é composto por sensores integrados ao <strong className='text-verde-claro font-patua-one'>Arduino</strong> que coletam dados em tempo real sobre as condições ambientais da horta. Descubra o que cada um faz abaixo , arraste para o lado para ver cada componente da sua horta automática. </p>
           </section>
 
